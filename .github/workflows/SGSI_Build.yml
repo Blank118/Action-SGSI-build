@@ -6,17 +6,17 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'https://bigota.d.miui.com/20.3.26/miui_MI8_20.3.26_15d4703a68_10.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'miui_MI8_20.3.26_15d4703a68_10.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
         default: 'miui'
       SGSI_TYPE:
-        description: 'SGSI_TYPE(AB, A, or BOTH)'
+        description: 'SGSI_TYPE'
         required: true
         default: 'AB'
       REPACK_NAME:
@@ -41,13 +41,8 @@ jobs:
 
       - name: Clean up the environment‌‌...
         run: |
-          docker rmi `docker images -q`
-          sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
-          sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php*
+          
           sudo -E apt-get update
-          sudo -E apt-get -y autoremove --purge
-          sudo -E apt-get clean
-          df -h
 
       - name: Configuration Environment‌‌...
         run: |
