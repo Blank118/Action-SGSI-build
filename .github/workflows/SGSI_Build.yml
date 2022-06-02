@@ -6,17 +6,17 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bigota.d.miui.com/20.3.26/miui_MI8_20.3.26_15d4703a68_10.0.zip'
+        default: 'http://bigota.d.miui.com/9.10.17/miui_MI8_9.10.17_16e9425d77_10.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_MI8_20.3.26_15d4703a68_10.0.zip'
+        default: 'miui_MI8_9.10.17_16e9425d77_10.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
         default: 'miui'
       SGSI_TYPE:
-        description: 'SGSI_TYPE'
+        description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
         default: 'AB'
       REPACK_NAME:
