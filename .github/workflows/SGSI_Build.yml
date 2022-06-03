@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'http://bigota.d.miui.com/9.10.17/miui_MI8_9.10.17_16e9425d77_10.0.zip'
+        default: 'http://hugeota.d.miui.com/9.9.27/miui_MI8_9.9.27_8c7dad29c5_9.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_MI8_9.10.17_16e9425d77_10.0.zip'
+        default: 'miui_MI8_9.9.27_8c7dad29c5_9.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
@@ -18,7 +18,7 @@ on:
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
-        default: 'AB'
+        default: 'A'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
