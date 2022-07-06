@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bigota.d.miui.com/V12.5.7.0.RKYCNXM/miui_ELISH_V12.5.7.0.RKYCNXM_61fdf8bb43_11.0.zip'
+        default: 'https://github.com/dotos-downloads/dipper/releases/download/v6.0-beta/dotOS-v6.0-dipper-BETA-VANILLA-20220409-1500.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_ELISH_V12.5.7.0.RKYCNXM_61fdf8bb43_11.0.zip'
+        default: 'dotOS-v6.0-dipper-BETA-VANILLA-20220409-1500.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
