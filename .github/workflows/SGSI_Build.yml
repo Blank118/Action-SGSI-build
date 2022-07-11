@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://github.com/dotos-downloads/dipper/releases/download/v6.0-beta/dotOS-v6.0-dipper-BETA-VANILLA-20220409-1500.zip'
+        default: 'https://bigota.d.miui.com/V13.0.1.0.RFXCNXM/miui_CRUX_V13.0.1.0.RFXCNXM_69193b67c0_11.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'dotOS-v6.0-dipper-BETA-VANILLA-20220409-1500.zip'
+        default: 'miui_CRUX_V13.0.1.0.RFXCNXM_69193b67c0_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
