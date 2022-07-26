@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://5674jd-my.sharepoint.com/personal/lingan_5674jd_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=60d51859-4e3e-47e5-97e2-a820bf6f882a&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvNTY3NGpkLW15LnNoYXJlcG9pbnQuY29tQDZhYTliNmU5LTE3MzYtNGVjNi1iMGNjLTc2MjRhYzk5MjRiNSIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE2NTg4MDgxNTYiLCJleHAiOiIxNjU4ODExNzU2IiwiZW5kcG9pbnR1cmwiOiJmdWtlZmpOak1sYytSbGRnUUlqVEF1VUtxQWhlMUNGQitGSmtpbGlVbDRNPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTU5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJNV1k0WmpRNU1EVXRNR0kwTlMwME1EUmxMVGt4Tm1VdE1ETTROR1k0TVdFeFpHUmsiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWkRGbE9XRTRNelV0TnpNMU1TMDBNak5rTFRrd1lqTXRaVE0zTnpGa01XUmpPVEl3IiwiYXBwX2Rpc3BsYXluYW1lIjoiTGljbG9pdWQyIiwiZ2l2ZW5fbmFtZSI6IkxpbmdBbiIsImZhbWlseV9uYW1lIjoiLiIsImFwcGlkIjoiMDdhMzkzZWYtMDc1NC00MDExLWJlZjQtYTU1MjMxNjMyOTkyIiwidGlkIjoiNmFhOWI2ZTktMTczNi00ZWM2LWIwY2MtNzYyNGFjOTk'
+        default: 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/415513586/9e1c30b9-d371-4238-9474-17a5f4cb44d5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220726%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220726T051528Z&X-Amz-Expires=300&X-Amz-Signature=10f5c97a5c83255bddcc2161c74cdd05672a3a404a0d1d77bbf2271a2e5f8cd3&X-Amz-SignedHeaders=host&actor_id=99472678&key_id=0&repo_id=415513586&response-content-disposition=attachment%3B%20filename%3DdotOS-R-v5.2.1-dipper-OFFICIAL-20211122-2315.zip&response-content-type=application%2Foctet-stream'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: '2wU4Vhze_JOYUI12.5 21.06.07 For MI 8.zip'
+        default: 'dotOS-R-v5.2.1-dipper-OFFICIAL-20211122-2315.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'miui'
+        default: 'dotos'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
