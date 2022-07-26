@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://xiaomi.kamiui.ml/%E5%B0%8F%E7%B1%B3%E6%95%B0%E5%AD%97%E7%B3%BB%E5%88%97/%E5%B0%8F%E7%B1%B38%EF%BC%88dipper%EF%BC%89/JoyUI/JOYUI12.5%2021.06.07%20For%20MI%208/JOYUI12.5%2021.06.07%20For%20MI%208.zip'
+        default: 'https://5674jd-my.sharepoint.com/personal/lingan_5674jd_onmicrosoft_com/_layouts/15/download.aspx?UniqueId=60d51859-4e3e-47e5-97e2-a820bf6f882a&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvNTY3NGpkLW15LnNoYXJlcG9pbnQuY29tQDZhYTliNmU5LTE3MzYtNGVjNi1iMGNjLTc2MjRhYzk5MjRiNSIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE2NTg4MDgxNTYiLCJleHAiOiIxNjU4ODExNzU2IiwiZW5kcG9pbnR1cmwiOiJmdWtlZmpOak1sYytSbGRnUUlqVEF1VUtxQWhlMUNGQitGSmtpbGlVbDRNPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTU5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJNV1k0WmpRNU1EVXRNR0kwTlMwME1EUmxMVGt4Tm1VdE1ETTROR1k0TVdFeFpHUmsiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWkRGbE9XRTRNelV0TnpNMU1TMDBNak5rTFRrd1lqTXRaVE0zTnpGa01XUmpPVEl3IiwiYXBwX2Rpc3BsYXluYW1lIjoiTGljbG9pdWQyIiwiZ2l2ZW5fbmFtZSI6IkxpbmdBbiIsImZhbWlseV9uYW1lIjoiLiIsImFwcGlkIjoiMDdhMzkzZWYtMDc1NC00MDExLWJlZjQtYTU1MjMxNjMyOTkyIiwidGlkIjoiNmFhOWI2ZTktMTczNi00ZWM2LWIwY2MtNzYyNGFjOTk'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'JOY UI12.5 2021.06.07 For MI 8'
+        default: '2wU4Vhze_JOYUI12.5 21.06.07 For MI 8.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
