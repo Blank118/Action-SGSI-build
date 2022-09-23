@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://p38i33gaivf95a2vaaacpbbfofsg4iam3aqd8j9vg901ir1s2n5fv01q.qc.x.bsgslb.cn:10443/xdispatch2aed92387c848a22/bigota.d.miui.com/V13.0.6.0.RKXINXM/miui_NABUINGlobal_V13.0.6.0.RKXINXM_92d2d1f591_11.0.zip?bsreqid=95799ff20bf2cd77fe3be776ddcb48c0'
+        default: 'https://bigota.d.miui.com/V12.5.1.0.RFXCNXM/miui_CRUX_V12.5.1.0.RFXCNXM_9d05ab098d_11.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_NABUINGlobal_V13.0.6.0.RKXINXM_92d2d1f591_11.0.zip'
+        default: 'miui_CRUX_V12.5.1.0.RFXCNXM_9d05ab098d_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'Pad5.zip'
+        default: '9Pro5g.zip'
 
 
 
