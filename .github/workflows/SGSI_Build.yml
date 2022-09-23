@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/415513586/9e1c30b9-d371-4238-9474-17a5f4cb44d5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220726%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220726T051528Z&X-Amz-Expires=300&X-Amz-Signature=10f5c97a5c83255bddcc2161c74cdd05672a3a404a0d1d77bbf2271a2e5f8cd3&X-Amz-SignedHeaders=host&actor_id=99472678&key_id=0&repo_id=415513586&response-content-disposition=attachment%3B%20filename%3DdotOS-R-v5.2.1-dipper-OFFICIAL-20211122-2315.zip&response-content-type=application%2Foctet-stream'
+        default: 'https://xiaomi.baishancdnx.cn/xdispatch2aed92387c848a21/bigota.d.miui.com/21.9.8/miui_NABU_21.9.8_a5e30b082e_11.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'dotOS-R-v5.2.1-dipper-OFFICIAL-20211122-2315.zip'
+        default: 'miui_NABU_21.9.8_a5e30b082e_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'dotos'
+        default: 'miui'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'SGSI.zip'
+        default: 'Pad5.zip'
 
 
 
