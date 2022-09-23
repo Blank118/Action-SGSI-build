@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://ukvrh0pjmeqad4b73og1lpplh9frpoq0kjdodpuq2dalkvmlep8fvreu.qc.x.bsgslb.cn:10443/xdispatch2aed92387c848a22/bigota.d.miui.com/V13.0.4.0.RKXINXM/miui_NABUINGlobal_V13.0.4.0.RKXINXM_6770e65321_11.0.zip?bsreqid=120320aa401efd61bf78cd65aa0c62e4'
+        default: 'https://p38i33gaivf95a2vaaacpbbfofsg4iam3aqd8j9vg901ir1s2n5fv01q.qc.x.bsgslb.cn:10443/xdispatch2aed92387c848a22/bigota.d.miui.com/V13.0.6.0.RKXINXM/miui_NABUINGlobal_V13.0.6.0.RKXINXM_92d2d1f591_11.0.zip?bsreqid=95799ff20bf2cd77fe3be776ddcb48c0'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_NABUINGlobal_V13.0.4.0.RKXINXM_6770e65321_11.0.zip'
+        default: 'miui_NABUINGlobal_V13.0.6.0.RKXINXM_92d2d1f591_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
