@@ -10,7 +10,6 @@ CameraTools
 Mipay
 MiuiBugReport
 Browser
-MiuiCamera
 MiuiVideo
 Music
 QuickSearchBox
