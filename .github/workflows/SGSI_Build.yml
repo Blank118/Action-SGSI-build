@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1950_A_7.9.1-update-full_1675345264.
+        default: 'https://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1950_A_7.9.1-update-full_1675345264.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
