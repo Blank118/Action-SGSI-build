@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bigota.d.miui.com/V12.5.4.0.RJBCNXM/miui_UMI_V12.5.4.0.RJBCNXM_0eaf9561e1_11.0.zip'
+        default: 'https://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1950_A_7.9.1-update-full_1675345264.
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_UMI_V12.5.4.0.RJBCNXM_0eaf9561e1_11.0.zip'
+        default: 'PD1950_A_7.9.1-update-full_1675345264.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'miui'
+        default: 'vivo'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'MI10_V12.5.7.0_11.zip'
+        default: 'Origin2.0-NEX3S.zip'
 
 
 
@@ -50,7 +50,7 @@ jobs:
 
       - name: Get the SGSI tool‌‌...
         run: |
-          git clone --recurse-submodules https://github.com/xiaoxindada/SGSI-build-tool.git -b 11 $GITHUB_WORKSPACE/Tool-SGSI-build
+          git clone --recurse-submodules https://github.com/xiaoxindada/SGSI-build-tool.git -b 10 $GITHUB_WORKSPACE/Tool-SGSI-build
 
       - name: Replace custom condensed content...
         run: |
