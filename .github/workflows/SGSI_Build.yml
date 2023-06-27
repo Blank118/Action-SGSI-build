@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1950_A_7.9.1-update-full_1675345264.zip'
+        default: 'https://bigota.d.miui.com/V13.0.10.0.RKYCNXM/miui_ELISH_V13.0.10.0.RKYCNXM_1bf58ab6f7_11.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'PD1950_A_7.9.1-update-full_1675345264.zip'
+        default: 'miui_ELISH_V13.0.10.0.RKYCNXM_1bf58ab6f7_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'vivo'
+        default: 'miui'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'Origin2.0-NEX3S.zip'
+        default: 'MIUIPad_elish.zip'
 
 
 
